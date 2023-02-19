@@ -1,0 +1,34 @@
+.cardContainer {
+  width: 30rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  background-color: rgb(157, 189, 190);
+  color: rgb(105, 32, 107);
+  height: 30 rem;
+  max-width: 30rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 28rem;
+  max-height: 15rem;
+  max-width: 28rem;
+  border-radius: 1rem;
+}
+.par {
+  padding: 3rem;
+  position: absolute;
+}
+
+.cardContainer:hover .par {
+  transform: translateY(-100%);
+  transition: all 0.9s ease-in-out;
+}
+
+.button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: rgb(212, 52, 50);
+}
